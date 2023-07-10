@@ -1,0 +1,47 @@
+body{
+    background: black;
+    text-align: center;
+    color: aqua;
+}
+
+.linkedin{
+    text-decoration: underline;
+    color: red;
+}
+
+#nav-menu{
+    list-style-type: none;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.menu-items{
+    padding: 4px 8px;
+    border: 1px white solid;
+    text-decoration: none;
+    color: rgb(215, 255, 240);
+    background-color: #915a5a;
+}
+
+.menu-items:hover{
+    background: rgb(114, 68, 173);
+}
+
+#list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    border: 5px dotted white;
+    padding: 5px;
+}
+
+.list-links{
+    color: rgb(123, 255, 0);
+    text-decoration: underline;
+    font-size: large;
+}
