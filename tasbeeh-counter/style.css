@@ -3,7 +3,7 @@ body {
 }
 
 #container{
-    margin: 200px auto;
+    margin: 50px 50px;
     padding: 5px;
     border: 2px dotted white;
     display: flex;
@@ -19,13 +19,33 @@ body {
     text-align: center;
 }
 
+#nav-menu{ 
+     list-style-type: none; 
+     color: aliceblue; 
+     text-align: center; 
+     font-size: 20px; 
+     padding: 5px; 
+ } 
+  
+ .menu-items{ 
+     padding: 4px 8px; 
+     border: 1px white solid; 
+     text-decoration: none; 
+     color: rgb(215, 255, 240); 
+     background-color: #915a5a; 
+ } 
+  
+ .menu-items:hover{ 
+     background: rgb(114, 68, 173); 
+ }
+
 #counter-el{
     color: aqua;
     padding: 4px;
     text-align: center;
 }
 
-#btns{
+#btns-container{
     display: flex;
     flex-direction: column;
 }
@@ -37,7 +57,7 @@ body {
     color: white;
     font-size: 20px;
     border-radius: 4px;
-    margin-bottom: 5px;
+    margin: 5px 0;
 }
 
 #reset-btn{
@@ -47,4 +67,19 @@ body {
     color: white;
     font-size: 20px;
     border-radius: 4px;
+    margin: 5px 0;
+}
+
+#new-btn{
+    background: #ff8955;
+    padding: 4px 8px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+#count-history{
+    color: #00ff6c;
 }
