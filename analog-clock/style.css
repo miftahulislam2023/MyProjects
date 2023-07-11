@@ -1,85 +1,88 @@
-body {
+body{
     background: black;
 }
 
-#container{
-    margin: 50px 50px;
-    padding: 5px;
-    border: 2px dotted white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .title{
-    color: #ffffff;
-    padding: 4px;
-    margin: 0 0;
     text-align: center;
+    color: aquamarine;
 }
 
-#nav-menu{ 
-     list-style-type: none; 
-     color: aliceblue; 
-     text-align: center; 
-     font-size: 20px; 
-     padding: 5px; 
- } 
-  
- .menu-items{ 
-     padding: 4px 8px; 
-     border: 1px white solid; 
-     text-decoration: none; 
-     color: rgb(215, 255, 240); 
-     background-color: #915a5a; 
- } 
-  
- .menu-items:hover{ 
-     background: rgb(114, 68, 173); 
- }
+.linkedin{
+    text-decoration: underline;
+    color: red;
+}
 
-#counter-el{
-    color: aqua;
-    padding: 4px;
+#nav-menu{
+    list-style-type: none;
+    color: aliceblue;
     text-align: center;
-}
-
-#btns-container{
-    display: flex;
-    flex-direction: column;
-}
-
-#subhanallah-btn{
-    background: #ff8955;
-    padding: 4px 8px;
-    border: none;
-    color: white;
     font-size: 20px;
-    border-radius: 4px;
-    margin: 5px 0;
+    padding: 5px;
 }
 
-#reset-btn{
-    background: #ff8955;
+.menu-items{
     padding: 4px 8px;
-    border: none;
-    color: white;
-    font-size: 20px;
-    border-radius: 4px;
-    margin: 5px 0;
+    border: 1px white solid;
+    text-decoration: none;
+    color: rgb(215, 255, 240);
+    background-color: #915a5a;
 }
 
-#new-btn{
-    background: #ff8955;
-    padding: 4px 8px;
-    border: none;
-    color: white;
-    font-size: 20px;
-    border-radius: 4px;
-    margin: 5px 0;
+.menu-items:hover{
+    background: rgb(114, 68, 173);
 }
 
-#count-history{
-    color: #00ff6c;
+#clock{
+    border: 2px solid white;
+    height: 500px;
+    width: 500px;
+    margin: 30px auto;
+}
+
+#second{
+    position: absolute;
+    margin: 250px;
+    width: 200px;
+    height: 2px;
+    background: aqua;
+    animation: second 60s linear infinite;
+    transform-origin: 0% 0%;
+        
+}
+
+@keyframes second{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#minute{
+    position: absolute;
+    margin: 250px;
+    width: 180px;
+    height: 3px;
+    background: #eaffea;
+    animation: minute 3600s linear infinite;
+    transform-origin: 0% 0%;
+}
+
+@keyframes minute{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#hour{
+    margin: 250px;
+    width: 170px;
+    height: 4px;
+    background: #ff6a6a;
+    animation: hour 43200s linear infinite;
+    transform-origin: 0% 0%;
+}
+
+@keyframes hour{
+    100%{
+        transform: rotate(360deg);
+    }
 }
