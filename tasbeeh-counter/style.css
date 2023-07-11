@@ -2,21 +2,25 @@ body {
     background: black;
 }
 
+.title{
+    text-align: center;
+    color: rgb(227, 255, 127);
+}
+
+.linkedin{
+    text-decoration: underline;
+    color: red;
+}
+
 #container{
-    margin: 50px 50px;
+    width: 40%;
+    margin: 5px auto;
     padding: 5px;
     border: 2px dotted white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-}
-
-.title{
-    color: #ffffff;
-    padding: 4px;
-    margin: 0 0;
-    text-align: center;
 }
 
 #nav-menu{ 
