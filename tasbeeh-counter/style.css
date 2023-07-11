@@ -27,7 +27,7 @@ body {
      padding: 5px; 
  } 
   
- .menu-items{ 
+.menu-items{ 
      padding: 4px 8px; 
      border: 1px white solid; 
      text-decoration: none; 
@@ -35,7 +35,7 @@ body {
      background-color: #915a5a; 
  } 
   
- .menu-items:hover{ 
+.menu-items:hover{ 
      background: rgb(114, 68, 173); 
  }
 
