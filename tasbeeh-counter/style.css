@@ -87,3 +87,12 @@ body {
 #count-history{
     color: #00ff6c;
 }
+
+#reset-btn:hover, #new-btn:hover, #subhanallah-btn:hover {
+    background: #3a90c2;
+}
+
+#reset-btn:active, #new-btn:active, #subhanallah-btn:active {
+    background: #3a90c2;
+    color: #e7ff0e;
+}
