@@ -1,0 +1,43 @@
+body{
+    background: black;
+    color: white;
+}
+#title{
+    text-align: center;
+    color: aqua;
+    padding: 5px;
+    font-size: 40px;
+}
+#input-container{
+    margin: 20px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input-list{
+    font-size: 24px;
+    text-align: left;
+}
+.input{
+    padding: 5px;
+    margin: 5px;
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+}
+#result-btn{
+    border: none;
+    border-radius: 10px;
+    background: #ff5f55aa;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 4px 16px;
+}
+#result{
+    margin: 20px;
+    font-size: 28px;
+    color: #ff6a7fec;
+}
