@@ -10,8 +10,8 @@ resultButton.innerText = "See Result"
 
 resultButton.addEventListener("click", function () {
     choice = choiceInput.value
-    num1 = num1Input.value
-    num2 = num2Input.value
+    num1 = Number(num1Input.value)
+    num2 = Number(num2Input.value)
     isValid = 1
     switch(choice) {
     case '1':
